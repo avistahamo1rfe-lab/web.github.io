@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mara Voss — Essays</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="masthead">
+  <div class="masthead-row">
+    <a href="#top" class="wordmark">Mara Voss</a>
+    <nav class="nav">
+      <a href="#index">Index</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button class="mode-toggle" id="modeToggle" aria-pressed="false" aria-label="Switch to sepia reading mode">
+        <span class="mode-dot"></span> reading mode
+      </button>
+    </nav>
+    <button class="nav-trigger" id="navTrigger" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav">
+  <a href="#index">Index</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <button class="mode-toggle" id="modeToggleMobile">Sepia reading mode</button>
+</nav>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="hero-kicker">Latest essay — March 2026</p>
+    <h1 class="hero-title">The Discipline of Being Bored on Purpose</h1>
+    <p class="hero-standfirst">On what got lost when every idle minute found a screen to fill it, and the small, deliberate work of getting it back.</p>
+    <a href="#" class="hero-link">Read the essay <span class="arrow-glyph">›</span></a>
+  </section>
+
+  <section class="index" id="index">
+    <div class="index-head">
+      <h2>Index</h2>
+      <p class="index-sub">A running archive, newest first.</p>
+    </div>
+
+    <ol class="index-list">
+      <li class="index-item">
+        <span class="index-date">Mar 2026</span>
+        <a href="#" class="index-title">The Discipline of Being Bored on Purpose</a>
+        <span class="index-tag">Attention</span>
+      </li>
+      <li class="index-item">
+        <span class="index-date">Jan 2026</span>
+        <a href="#" class="index-title">Letters We Don't Send Anymore</a>
+        <span class="index-tag">Correspondence</span>
+      </li>
+      <li class="index-item">
+        <span class="index-date">Nov 2025</span>
+        <a href="#" class="index-title">A Field Guide to Unfinished Novels</a>
+        <span class="index-tag">Craft</span>
+      </li>
+      <li class="index-item">
+        <span class="index-date">Sep 2025</span>
+        <a href="#" class="index-title">The Weather Report as Confession</a>
+        <span class="index-tag">Place</span>
+      </li>
+      <li class="index-item">
+        <span class="index-date">Jun 2025</span>
+        <a href="#" class="index-title">On Reading Slower Than the Internet Wants</a>
+        <span class="index-tag">Attention</span>
+      </li>
+      <li class="index-item">
+        <span class="index-date">Apr 2025</span>
+        <a href="#" class="index-title">What My Grandmother's Recipes Won't Translate</a>
+        <span class="index-tag">Family</span>
+      </li>
+      <li class="index-item">
+        <span class="index-date">Feb 2025</span>
+        <a href="#" class="index-title">The Long Middle of Any Good Project</a>
+        <span class="index-tag">Craft</span>
+      </li>
+    </ol>
+
+    <div class="index-filter" role="group" aria-label="Filter essays by subject">
+      <button class="filter-chip is-active" data-tag="all">All</button>
+      <button class="filter-chip" data-tag="Attention">Attention</button>
+      <button class="filter-chip" data-tag="Craft">Craft</button>
+      <button class="filter-chip" data-tag="Correspondence">Correspondence</button>
+      <button class="filter-chip" data-tag="Place">Place</button>
+      <button class="filter-chip" data-tag="Family">Family</button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-portrait" aria-hidden="true">MV</div>
+    <div class="about-copy">
+      <h2>About</h2>
+      <p>Mara Voss writes essays about attention, memory, and the ordinary textures of daily life. Her work has appeared in a handful of small magazines and a great many notebooks that never left the house.</p>
+      <p>She is currently at work on a collection about the correspondence her family kept during the years they lived apart, and what it means to write toward someone instead of at an audience.</p>
+      <p class="about-note">This page is a placeholder — swap the name, essays, and bio for your own before publishing.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Get in touch</h2>
+    <p>For essays, edits, or just to say the last piece landed —</p>
+    <a href="mailto:hello@maravoss.example" class="contact-email">hello@maravoss.example</a>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Mara Voss, essays. Built by hand.</p>
+  <button class="to-top" id="toTop" aria-label="Back to top">↑ Top</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
